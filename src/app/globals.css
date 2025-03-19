@@ -60,4 +60,4 @@ body {
 
 .contactMeFormInput {
     @apply w-full p-2 text-lg text-[var(--foreground-darker)] bg-[var(--background-dark)];
-{
+}
