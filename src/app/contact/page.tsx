@@ -44,7 +44,7 @@ export default function ContactPage() {
     };
 
     return (
-        <div className="page-wrapper">
+        <div>
             <div className="max-w-lg mx-auto mt-10 p-6 bg-[var(--background)]  rounded-lg shadow-2xl">
                 <h1 className="text-2xl font-bold mb-4 text-center">Contact Me</h1>
                 <form onSubmit={handleSubmit} className="space-y-4">
