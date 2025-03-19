@@ -26,6 +26,8 @@ body {
     background: var(--background-darker);
     font-family: monospace, sans-serif;
     overflow-x: hidden;
+    scrollbar-gutter: stable;
+    
     
 
 }
@@ -57,15 +59,5 @@ body {
 }
 
 .contactMeFormInput {
-    @apply w-full p-2 text-lg text-[var(--foreground-darker)] bg-[var(--background-dark)] rounded;
-}
-
-.removescrollbar{
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    scrollbar-width: none;
-    @media screen and (min-width: 768px) {
-        
-    }
-}
+    @apply w-full p-2 text-lg text-[var(--foreground-darker)] bg-[var(--background-dark)] 
+{
