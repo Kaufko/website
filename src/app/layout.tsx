@@ -17,7 +17,7 @@ export default function RootLayout({ children, }:
 ) {
     return (
         <html lang="en">
-            <body className="removescrollbar">
+            <body>
                 <Menu>
                     <header className="relative w-full z-50 top-0">
                         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
