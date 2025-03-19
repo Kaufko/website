@@ -40,7 +40,7 @@ const AboutMe = () => {
 
     return (
         <main>
-            <div className="relative pagewrapper">
+            <div className="relative">
                 {/*Make this ignore the top link bar somehow*/}
                 <section className="flex flex-col lg:justify-center max-md:py-5 sm:py-10 items-start lg:min-h-screen ">
                     <h1 className="text-4xl text-[var(--maincolor)] ml-8 inline">
